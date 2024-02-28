@@ -27,6 +27,7 @@ resource "aws_security_group" "demo-sg" {
     protocol         = "tcp"
     cidr_blocks      = ["0.0.0.0/0"]
     }
+    
 
     ingress {
     description      = "Jenkins port"
